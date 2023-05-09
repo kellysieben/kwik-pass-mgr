@@ -1,19 +1,13 @@
 ﻿@inherits LayoutComponentBase
 
-<PageTitle>webapp</PageTitle>
+<PageTitle>Kwik Pass Mgr</PageTitle>
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            @* <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a> *@
-            <a href="" target="_blank">Logout</a>
+    <main class="container-xxl">
+        <div class="px-5 pt-3 nav-links">
+            <LoginDisplay />
         </div>
-
-        <article class="content px-4">
+        <article class="content pt-1">
             @Body
         </article>
     </main>
